@@ -1,0 +1,9 @@
+name: 'Add Code Review Label'
+description: 'Adds a "code review" label to a pull request.'
+inputs:
+  github_token:
+    description: 'GitHub Token'
+    required: true
+runs:
+  using: 'node20'
+  main: 'index.js'
